@@ -1,5 +1,7 @@
 package pattern;
 
-public class InstrumentStrategy {
+import javax.sound.midi.*;
 
+public interface InstrumentStrategy {
+    void applyInstrument(Track track, int tick);
 }

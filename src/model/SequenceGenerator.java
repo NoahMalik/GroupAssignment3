@@ -3,8 +3,9 @@ package model;
 import javax.sound.midi.*;
 import java.util.List;
 
-public class SequenceGenerator {
 
+
+public class SequenceGenerator {
     /**
      * Generates a MIDI sequence from a list of MidiEventData.
      * @param midiEvents List of MidiEventData to generate the sequence from.
